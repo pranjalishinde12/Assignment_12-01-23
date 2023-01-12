@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenOddProgram</title>
+</head>
+
+<style>
+    body{
+        background-color:coral;
+    }
+    
+    .button {
+        width: 50%;
+        height: 50px;
+        background-color:aqua;
+        border-radius: 22px;
+        border-color: cornflowerblue;
+    }
+    .flexbox {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        border: 1px solid purple;
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    
+</style>
+<body>
+    <script src="app.js"></script>
+    <div class="flexbox">
+        <div class="card">
+            <h1 style="color:blue; background-color: chartreuse;">Even Odd Program</h1><br>
+            <label for="no"><h3>Enter Any Number :</h3> </label><br>
+            <input type="text" id="n" name="num" placeholder="Enter No"><br><br>
+            <button class="button" onclick="check()">Check Even Or Odd</button><br><br>
+            <input type="text" id="op" name="o" disabled placeholder="Output"><br><br>
+        </div>
+    </div>
+
+</body>
+</html>
